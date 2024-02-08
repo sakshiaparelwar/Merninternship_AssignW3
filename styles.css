@@ -1,0 +1,62 @@
+.filters {
+  position: fixed;
+  top: 0;
+  left: 2;
+  z-index: 1000;
+  height: 100%;
+  width: 200px;
+  background-color: #dcd5d5;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+  padding-left: 13rem;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 0px 0px 5px 5px;
+  width: 300px;
+  margin: 10px;
+  box-shadow: 5px 6px 6px gray;
+}
+
+.card img {
+  height: 350px;
+  width: 300px;
+}
+
+.card .info {
+  padding: 8px;
+  text-align: center;
+}
+
+.info h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 5px auto;
+}
+
+.info span {
+  color: gray;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info p {
+  text-align: justify;
+  font-weight: 500;
+}
+
+.info button {
+  color: rgb(52, 43, 43);
+  background-color: cornflowerblue;
+  height: 30px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 3px 5px 5px rgb(96, 94, 94);
+}
